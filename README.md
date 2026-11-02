@@ -1,6 +1,4 @@
-# Boutique intelligente : le vendeur WhatsApp (corrigé)
-
-Corrigé de bout en bout de l'exercice « Boutique intelligente (3 paliers) », Section 7 · Agents IA.
+# Boutique intelligente : le vendeur WhatsApp
 
 ## Le problème
 
