@@ -1,0 +1,24 @@
+name = "boutique-intelligente"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+# Stockage : stock, commandes, historique par client, doublons, quotas.
+# Créez le namespace avec : npx wrangler kv namespace create BOUTIQUE  puis collez l'id ici.
+[[kv_namespaces]]
+binding = "BOUTIQUE"
+id = "REMPLACER_PAR_L_ID_DU_NAMESPACE"
+
+# Paramètres non secrets. Les secrets (RODIUM_API_KEY, GREEN_API_TOKEN, WEBHOOK_TOKEN, AFI_CHAT_ID)
+# se posent avec : npx wrangler secret put <NOM>
+[vars]
+GREEN_API_URL = "REMPLACER_PAR_L_apiUrl_DE_L_INSTANCE"
+GREEN_ID_INSTANCE = "REMPLACER_PAR_L_idInstance"
+MODELE = "anthropic/claude-haiku-5-5"
+MODELE_JUGE = "anthropic/claude-haiku-5-5"
+MAX_STEPS = "8"
+MAX_REPRISES = "2"
+HISTORIQUE_MAX = "10"
+MESSAGES_MAX_PAR_HEURE = "30"
+
+[observability]
+enabled = true

@@ -1,0 +1,6 @@
+# Copiez en .dev.vars pour `wrangler dev` (jamais commité). En production : wrangler secret put <NOM>
+RODIUM_API_KEY=rd_sk_...
+GREEN_API_TOKEN=...
+WEBHOOK_TOKEN=un-long-jeton-aleatoire
+# Numéro WhatsApp d'Afi : format international sans « + », suivi de @c.us
+AFI_CHAT_ID=229XXXXXXXX@c.us

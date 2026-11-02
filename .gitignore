@@ -1,0 +1,8 @@
+.env
+__pycache__/
+.pytest_cache/
+data/etat.json
+data/*.tmp
+worker/node_modules/
+worker/.dev.vars
+worker/.wrangler/
